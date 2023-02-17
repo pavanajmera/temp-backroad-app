@@ -28,7 +28,7 @@ const Navbar = () => {
           {socialLinks.map((sociallink) =>{
             return (
               <li key={sociallink.id}>
-                <a href={sociallink.url} target="_blank" className="nav-icon">
+                <a href={sociallink.url} className="nav-icon">
                   <i className={sociallink.icon}></i>
                 </a>
               </li>
